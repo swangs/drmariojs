@@ -1,0 +1,10 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+canvas {
+  background: grey;
+  border: 1px solid black;
+  border-radius: 20px;
+}
