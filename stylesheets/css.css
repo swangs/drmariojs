@@ -2,10 +2,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image: url("../images/maxresdefault.jpg");
-  /* background-image: url("../images/rrblack_blue_checkered_shop_preview.png"); */
   background-image: url("../images/rrDr_Mario_White_background_shop_preview.jpg");
-
 }
 canvas {
   background: grey;
