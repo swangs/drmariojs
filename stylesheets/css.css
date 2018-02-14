@@ -9,3 +9,27 @@ canvas {
   border: 1px solid black;
   border-radius: 20px;
 }
+
+h1 {
+  text-align: center;
+  margin: 0px;
+}
+
+.controls {
+  width: 250px;
+  height: 350px;
+  background: #2BE4FF;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.information {
+  width: 250px;
+  height: 150px;
+  background: #2BE4FF;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
