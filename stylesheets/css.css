@@ -1,13 +1,23 @@
 body{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   background-image: url("../images/virus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
+.gamecontainer {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
 canvas {
   background: #000000;
   background: linear-gradient(#505050, #000000);
