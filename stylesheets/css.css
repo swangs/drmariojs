@@ -5,6 +5,7 @@ body{
   background-image: url("../images/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Orbitron', sans-serif;
   color: #ffffff;
 }
 canvas {
@@ -19,6 +20,10 @@ h1 {
   margin: 0px;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 p {
   font-size: 20px;
   font-weight: 700;
@@ -27,8 +32,8 @@ p {
 
 .controls {
   width: 250px;
-  height: 400px;
-  background: rgba(35, 35, 35, 0.8);
+  height: 360px;
+  background: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
   padding: 20px;
 }
@@ -36,7 +41,7 @@ p {
 .information {
   width: 250px;
   height: 150px;
-  background: rgba(35, 35, 35, 0.8);
+  background: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
   padding: 20px;
   display: flex;
