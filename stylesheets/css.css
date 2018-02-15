@@ -2,7 +2,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image: url("../images/background.jpeg");
+  background-image: url("../images/virus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
@@ -59,7 +59,9 @@ p {
   justify-content: space-between;
 }
 
-a { color: #FFFFFF }
+a {
+  color: #FFFFFF;
+}
 a:visited { text-decoration: none; color:#FFFFFF; }
-a:hover { text-decoration: none; color:#A86CFF; }
-a:hover, a:active { text-decoration: none; color:#A86CFF }
+a:hover { text-decoration: none; color:#FF8319; }
+a:hover, a:active { text-decoration: none; color:#FF8319 }
