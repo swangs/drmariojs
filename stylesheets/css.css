@@ -2,8 +2,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
 }
 canvas {
