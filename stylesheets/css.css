@@ -17,7 +17,6 @@ canvas {
 
 h1 {
   text-align: center;
-  margin: 0px;
 }
 
 h2 {
@@ -31,15 +30,17 @@ p {
 }
 
 .controls {
-  width: 250px;
-  height: 360px;
+  min-width: 250px;
+  max-width: 250px;
+  /* height: 360px; */
   background: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .information {
-  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
   height: 150px;
   background: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
@@ -50,14 +51,17 @@ p {
 }
 
 button {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+}
+button:hover{
+  cursor: pointer;
 }
 
 .swang-links {
-  position: absolute;
-  top: 25px;
-  right: 25px;
+  position: relative;
+  /* top: 25px; */
+  left: 150px;
   width: 100px;
   height: 50px;
   display: flex;
