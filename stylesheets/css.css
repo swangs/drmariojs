@@ -10,7 +10,7 @@ body{
 canvas {
   background: #000000;
   background: linear-gradient(#505050, #000000);
-  border: 2px solid white;
+  border: 2px solid #FFFFFF;
   border-radius: 20px;
 }
 
@@ -54,7 +54,7 @@ p {
   justify-content: space-between;
 }
 
-a { color: white }
-a:visited { text-decoration: none; color:white; }
-a:hover { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
+a { color: #FFFFFF }
+a:visited { text-decoration: none; color:#FFFFFF; }
+a:hover { text-decoration: none; color:#A86CFF; }
+a:hover, a:active { text-decoration: none; color:#A86CFF }
