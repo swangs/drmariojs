@@ -2,10 +2,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image: url("../images/rrDr_Mario_White_background_shop_preview.jpg");
+  background-image: url("../images/background.jpg");
+  /* background-image: url("../images/rrDr_Mario_White_background_shop_preview.jpg"); */
 }
 canvas {
-  background: #505050;
+  background: #000000;
+  /* background-image: url("../images/background.jpg"); */
+  /* background-image: url("../images/rrDr_Mario_White_background_shop_preview.jpg"); */
   border: 1px solid black;
   border-radius: 20px;
 }
@@ -18,7 +21,7 @@ h1 {
 .controls {
   width: 250px;
   height: 350px;
-  background: #2BE4FF;
+  background: rgba(154, 106, 225, 0.7);
   border-radius: 20px;
   padding: 20px;
 }
@@ -26,7 +29,7 @@ h1 {
 .information {
   width: 250px;
   height: 150px;
-  background: #2BE4FF;
+  background: rgba(154, 106, 225, 0.7);
   border-radius: 20px;
   padding: 20px;
   display: flex;
