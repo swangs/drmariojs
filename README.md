@@ -8,9 +8,11 @@ Create rows and columns of four or more matching colors. Destroy all viruses to 
 ![alt text](https://i.imgur.com/bmdvYwD.gif "drmariodemo")
 
 ## Features
-### 9 levels with increasing difficulty
-### Engineered with object oriented programming in mind; key objects and functions are bundled together with Webpack
-### 2D Array Grid and Canvas Element synced to provide foundations for game animation and mechanics.
+9 levels with increasing difficulty
+
+Engineered with object oriented programming in mind; key objects and functions are bundled together with Webpack
+
+2D Array Grid and Canvas Element synced to provide foundations for game animation and mechanics.
 ```javascript
 newBoard(ctx) {
   const board = new Array(16);
