@@ -3,7 +3,7 @@
 [Dr Mario JS](https://swangs.github.io/drmariojs/) is a web browser puzzle game inspired by Dr Mario.  It is built entirely with vanilla JavaScript and HTML5.
 
 ## How to Play
-Create rows and columns of four or more matching colors. Destroy all viruses to advance clear the level.  
+Create rows and columns of four or more matching colors. Destroy all viruses to advance to the next level.  
 
 ![alt text](https://i.imgur.com/bmdvYwD.gif "drmariodemo")
 
