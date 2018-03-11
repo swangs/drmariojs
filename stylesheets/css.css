@@ -66,6 +66,7 @@ button {
 }
 button:hover{
   cursor: pointer;
+  outline: none;
 }
 
 .swang-links {
@@ -82,8 +83,8 @@ a {
   color: #FFFFFF;
 }
 a:visited { text-decoration: none; color:#FFFFFF; }
-a:hover { text-decoration: none; color:#252525; }
-a:hover, a:active { text-decoration: none; color:#252525 }
+a:hover { text-decoration: none; color:#0074BB; }
+a:hover, a:active { text-decoration: none; color:#0074BB }
 
 #mute {
   border-radius: 5px;
