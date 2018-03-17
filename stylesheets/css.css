@@ -20,7 +20,7 @@ body{
 
 canvas {
   background: #000000;
-  background: linear-gradient(#505050, #000000);
+  background: linear-gradient(#252525, #252525);
   border: 2px solid #FFFFFF;
   border-radius: 20px;
 }
